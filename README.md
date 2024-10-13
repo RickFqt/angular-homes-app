@@ -10,8 +10,22 @@ This project is an Angular-based web application designed to showcase various ho
     cd angular-homes-app
     ```
 
-2. **Install dependencies:**
-    Make sure you have Node.js and npm installed. Then run:
+2. **Identify the version of ``node.js`` that Angular requires:**
+    From a Terminal window, run the following command: 
+    ```bash
+    node --version
+    ```
+    Confirm that the version number displayed meets the requirements by checking the `engines` field in [here](https://unpkg.com/browse/@angular/core@15.1.5/package.json).
+    If you do not have a version of node.js installed, please follow the [directions for installation on nodejs.org](https://nodejs.org/en/download/).
+
+3. **Install Angular CLI:**
+    From a Terminal window run the following command:
+    ```bash
+    npm install -g @angular/cli
+    ```
+
+3. **Install dependencies:**
+    Then run:
     ```bash
     npm install
     ```
